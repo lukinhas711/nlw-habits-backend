@@ -16,5 +16,5 @@ app.get('/', async () => {
 app.listen({
   port: 3333
 }).then(() => {
-  console.log('server running on 3333')
+  console.log('server running on localhost:3333')
 })
